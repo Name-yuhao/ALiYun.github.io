@@ -1,0 +1,76 @@
+.four{
+    width: 100%;
+    height: 420px;
+    color: #fff;
+    overflow: hidden;
+    border-top: 8px solid #4F5356;
+    border-bottom: 8px solid #4F5356;
+    position: relative;
+}
+.four ul.four_ul{
+    width: 2000%;
+    height: 420px;
+    margin: 0 auto;
+    position: relative;
+}
+.four  #four_arr{
+    display: none;
+}
+#four_arr span{
+    width: 42px;
+    height: 420px;
+    line-height:420px;
+    text-align: center;
+    font-size: 36px;
+    opacity: 0.6;
+    background-color: #373D41;
+    position: absolute;
+    cursor: pointer;
+    top:0px;
+}
+#four_left{
+    left: 0px;
+}
+#four_right{
+    right: 0px;
+}
+.four ul li.four_li{
+    width: 1%;
+    height: 100%;
+    background-color:#212427;
+    float: left;
+    position: relative;
+}
+.four ul li.four_li a{
+    color: #ffffff;
+}
+.four ul li.four_li img{
+    width: 100%;
+    opacity: 0.4;
+}
+.four li.four_li span{
+    width: 160px;
+    height: 420px;
+    position: absolute;
+    left: 78px;
+}
+.four  li.four_li span img{
+    position: absolute;
+    width: 68px;
+    opacity: 1;
+    vertical-align: middle;
+    top: 20%;
+    left: 30px;
+}
+.four  li.four_li span p{
+    vertical-align: middle;
+    position: absolute;
+    font:bold 20px "微软雅黑";
+}
+.four  li.four_li span .four_p1{
+    top: 40%;
+    left: 50px;
+}
+.four  li.four_li span .four_p2{
+    top: 60%;
+}

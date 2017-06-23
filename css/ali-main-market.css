@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.w{
+    width:1200px;
+    margin:0 auto;
+}
+a:hover{
+    color:deepskyblue;
+}
+.ali-main-market{
+    height:200px;
+    height:730px;
+    background-color:#ffffff;
+}
+.ali-main-market-tit{
+    padding-top:71px;
+    padding-bottom:47px;
+    text-align:center;
+}
+.ali-main-market-tit .p1{
+    font:24px/48px "微软雅黑";
+    color:#4c5154;
+    margin:0 auto;
+}
+.ali-main-market-tit .p2{
+    font:14px/36px "微软雅黑";
+    margin:0 auto;
+    color:#5f6367;
+}
+.ali-main-market-con{
+    height:440px;
+    margin-bottom:90px;
+}
+.ali-main-market-con .option{
+    width:400px;
+    padding-bottom:29px;
+    float:left;
+    text-align:center;
+    overflow:hidden;
+}
+.ali-main-market-con .option .title a{
+    display:block;
+    width:150px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.ali-main-market-con .option .title a .pic{
+    height:100px;
+    width:100px;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+.ali-main-market-con .option .title a .pic img{
+    width:100px;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+.ali-main-market-con .option .title a h2{
+    font:700 20px/52px "微软雅黑";
+}
+.ali-main-market-con .option p a{
+    font:12px/20px tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif;
+    color:#a9b0b4;
+}
+.ali-main-market-con .option p a:hover{
+    color:deepskyblue;
+}
+.ali-main-market-con .option p span{
+    font:12px/20px tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif;
+    color:#a9b0b4;
+    margin:0 8px;
+}

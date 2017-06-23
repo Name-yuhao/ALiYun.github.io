@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*------------------------版心*/
+.wrap{
+    width:1200px;
+    margin:0 auto;
+}
+/*------------------------版心*/
+
+/*--------------S----------ali_serve_map*/
+#ali_serve_map{
+    width:100%;
+    /*height:2000px;*/
+}
+/*--------------E----------ali_serve_map*/
+
+/*--------------S---------------------------------------------ali_serve_header*/
+.ali_serve_header{
+    width:100%;
+    height:100px;
+    text-align:center;
+    overflow:hidden;
+    position:relative;
+}
+#ali_serve_map .ali_cloud_one{
+    width:100%;
+    height:620px;
+    background-color:#00c1de;
+    position:absolute;
+    left:0;
+    top:0;
+}
+#ali_serve_map .ali_cloud_one img{
+    width:100%;
+    height:620px;
+    opacity:0.8;
+}
+#ali_serve_map .defence_count{
+    position:relative;
+    top:34px;
+    font-size:24px;
+    color:#fff;
+    text-align:center;
+    cursor:pointer;
+}
+/*--------------E-----------------------------------------------ali_serve_header*/
+
+/*--------------S-----------------------------------------------ali_serve_main*/
+#ali_serve_map .ali_serve {
+    margin-top:80px;
+}
+#ali_serve_map .ali_serve_main{
+    margin-bottom:50px;
+    text-align:center;
+}
+/*--------------S---------------------serve_title*/
+#ali_serve_map .ali_serve_main .serve_title{
+    margin-bottom:60px;
+}
+#ali_serve_map .ali_serve_main .serve_title h2{
+    font-size:24px;
+    font-weight:500;
+    color:#373d41;
+}
+#ali_serve_map .ali_serve_main .serve_title a{
+    display:block;
+    margin-top:12px;
+    height:24px;
+    width:1200px;
+    font-size:16px;
+    color:#5f6367;
+}
+#ali_serve_map .ali_serve_main .serve_title a:hover{
+    color:#00c1de;
+}
+/*--------------E---------------------serve_title*/
+
+/*--------------S---------------------serve_map*/
+#ali_serve_map .serve_map{
+    position:relative;
+}
+#ali_serve_map .serve_map .point_area{
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+}
+#ali_serve_map .serve_map .point_area .point a{
+    width:12px;
+    height:12px;
+    display:inline-block;
+    /*margin:50%;*/
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    background-color:#6ad7e9;
+    border-radius:50%;
+    z-index:5;
+}
+#ali_serve_map .serve_map img{
+    width:1200px;
+}
+#ali_serve_map .serve_map .point_area .point p{
+    /*display:inline-block;*/
+    position:absolute;
+    left:60%;
+    top:40%;
+    z-index:6;
+}
+.circle_one_transition{
+    transition:all 3s;
+}
+.circle_one{
+    position:absolute;
+    width:0px;
+    height:0px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    border:2px solid #6ad7e9;
+    border-radius:50%;
+}
+#ali_serve_map .circle_two{
+    position:absolute;
+    width:0px;
+    height:0px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    border:2px solid #6ad7e9;
+    border-radius:50%;
+}
+#ali_serve_map .circle_three{
+    position:absolute;
+    width:0px;
+    height:0px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    border:2px solid #6ad7e9;
+    border-radius:50%;
+}
+/*--------------S---------------------serve_map*/
+/*--------------S---------------------serve_bar*/
+#ali_serve_map .serve_bar{
+    height:50px;
+}
+#ali_serve_map .serve_bar ul{
+    width:960px;
+    margin:0 auto;
+}
+#ali_serve_map .serve_bar li{
+    float:left;
+}
+#ali_serve_map .serve_bar li .bar_imgs{
+    width:50px;
+    height:50px;
+}
+#ali_serve_map .serve_bar li a{
+    box-sizing:border-box;
+    display:block;
+    width:240px;
+    height:50px;
+    padding:0 10px;
+}
+#ali_serve_map .serve_bar li p{
+    display:inline-block;
+    padding-left:10px;
+}
+/*--------------E---------------------serve_bar*/
+
+/*--------------S---------------------serve_partner*/
+#ali_serve_map .ali_serve_partner{
+    padding-top:80px;
+    text-align:center;
+}
+#ali_serve_map .ali_serve_partner .partner_head h2{
+    font-size:24px;
+    font-weight:500;
+    color:#373d41;
+}
+#ali_serve_map .ali_serve_partner .partner_head a{
+    display:block;
+    margin-top:12px;
+    height:24px;
+    width:1200px;
+    font-size:16px;
+    color:#5f6367;
+}
+#ali_serve_map .ali_serve_partner .partner_imgs{
+    margin-top:12px;
+}
+#ali_serve_map .partner_imgs ul{
+    box-sizing:border-box;
+    height:203px;
+    position:relative;
+}
+#ali_serve_map .partner_imgs li{
+    float:left;
+    width:240px;
+    padding-top:36.5px;
+
+}
+#ali_serve_map .partner_imgs img{
+    height:93.5px;
+}
+/*--------------E-------------------------------------------ali_serve_main*/
+
+/*--------------S-------------------------------------------ali_serve_register*/
+#ali_serve_map .ali_serve_register{
+    width:100%;
+    height:144px;
+    background-color:#00c1de;
+    text-align:center;
+    overflow:hidden;
+    position:relative;
+}
+#ali_serve_map .ali_serve_register .register_button{
+    display:block;
+    width:122px;
+    height:36px;
+    border:1px solid #ffffff;
+    margin:0 auto;
+    margin-top:54px;
+    font-size:16px;
+    line-height:36px;
+    color:#fff;
+    position:relative;
+}
+#ali_serve_map .ali_serve_register .register_button:hover{
+    color:#00c1de;
+    background-color:#fff;
+}
+/*--------------E-------------------------------------------ali_serve_register*/
+/*--------------S-------------------------------------------ali_serve_register*/
+#side_bar{
+    width:38px;
+    position:fixed;
+    right:0;
+    top:292px;
+    z-index:240;
+}
+#side_bar .side_show{
+    display:block;
+    margin-bottom:5px;
+}
+#side_bar a img{
+    width:38px;
+    height:38px;
+}
+#show_side img{
+    display:none;
+}
+/*#erweima_side{*/
+    /*display:block;*/
+    /*width:131px;*/
+    /*height:131px;*/
+    /*position:absolute;*/
+    /*top:0px;*/
+    /*left:-140px;*/
+    /*display:none;*/
+/*}*/
+/*#side_img{*/
+    /*display:block;*/
+    /*position:absolute;*/
+    /*top:43px;*/
+    /*left:-512px;*/
+    /*display:none;*/
+/*}*/
+
+#erweima_side {
+    /*display:block;*/
+    /*width:0px;*/
+    /*height:0px;*/
+    position:absolute;
+    top:0px;
+    left:-650px;
+    display:none;
+}
+#side_img {
+    display:block;
+    position:absolute;
+    top:43px;
+    left:-512px;
+    display:none;
+}
+
+/*--------------E-------------------------------------------ali_serve_register*/
+

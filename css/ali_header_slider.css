@@ -1,0 +1,223 @@
+/*       start             */
+
+.hSlider {
+    width: 100%;
+    height: 560px;
+    border-top: 1px solid #3E4245;
+    background: #24282C;
+    cursor: pointer;
+    position:relative;
+}
+
+.hSlider-left {
+    position: absolute;
+    top: 130px;
+    left: 60px;
+}
+
+.left-con {
+    width: 748px;
+    height: 165px;
+    /*margin-top: 140px;*/
+    /*background: red;*/
+}
+
+.left-con a {
+    color: #ffffff;
+}
+
+.left-con a h1 {
+    font-size: 44px;
+    font-weight: normal;
+}
+
+.left-con a p {
+    margin-top: 14px;
+    margin-bottom: 44px;
+    font-size: 20px;
+}
+
+.left-con a button {
+    width: 124px;
+    height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+
+.left-con a button:hover {
+    background-color: #ffffff;
+    color: grey;
+}
+
+.right-img {
+    width: 800px;
+    height: 560px;
+    position: absolute;
+    overflow: hidden;
+    right: 25px;
+    top: 0;
+}
+
+.right-img img {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+/*       over             */
+.slider {
+    width: 100%;
+    height: 560px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.slider.show {
+    opacity: 1;
+}
+
+/*--------二维码样式start---------*/
+#phonePic {
+    position: fixed;
+    top: 330px;
+    right: 0;
+    cursor: pointer;
+    z-index: 1000;
+}
+#telpPic1,#telpPic2{
+    position: fixed;
+    top: 380px;
+    right: 0;
+    cursor: pointer;
+    z-index: 1000;
+}
+#telpPic2{
+    display: none;
+    z-index: 1001;
+}
+#erweimaBox #erweima {
+    position: fixed;
+    right: 0px;
+    top: 162px;
+    opacity: 0;
+    z-index: 1000;
+}
+
+/*--------二维码样式over---------*/
+
+/*--------移入电话图标要显示的盒子样式start---*/
+.showIfo{
+    position: fixed;
+    top: 380px;
+    right: 50px;
+}
+.showIfo .tel-hover{
+    width: 360px;
+    height: 157px;
+    background: #fff;
+    border: 1px solid #c5d8db;
+    padding: 0 20px;
+    border-top: 5px solid #00C1DE;
+    text-align: left;
+}
+.showIfo .tel-hover .top-area {
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: .5px solid #DEDEDE;
+}
+.showIfo .tel-hover .top-area .top-left-icon {
+    width: 50px;
+    float: left;
+    padding-top: 10px;
+}
+.showIfo .tel-hover .top-area .top-right-text {
+    padding-left: 70px;
+    height: 54px;
+    color: #373D41;
+}
+.showIfo .tel-hover .top-area .top-right-text .desc {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 4px;
+    color: #5F6367;
+}
+.showIfo .tel-hover .top-area .top-right-text .phone {
+    font-size: 18px;
+    line-height: 28px;
+    color: #00C1DE;
+}
+.showIfo .tel-hover .top-area .panel-close {
+    color: #D0D0D0;
+    position: absolute;
+    right: 0;
+    top: 17px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.showIfo .tel-hover .bottom-area {
+    width: 100%;
+    font-size: 12px;
+    color: #9B9EA0;
+    padding-top: 16px;
+}
+.showIfo .tel-hover .bottom-area a {
+    font-size: 14px;
+    color: #A9B0B4;
+}
+.showIfo .tel-hover .bottom-area a:hover {
+    color: #00C1DE;
+    text-decoration: none;
+}
+.showIfo .tel-hover .bottom-area .bottom-li li {
+    float: left;
+    width: 40%;
+    list-style-type: circle;
+    margin-left: 10%;
+}
+
+
+/*--------移入电话图标要显示的盒子样式over---*/
+
+
+/*--------轮播下面广告区样式start------*/
+#slider-ad{
+    width: 100%;
+    height: 130px;
+    background: #2D3035;
+}
+#ad-con{
+    height: 130px;
+    position: relative;
+    /*background-color: blue;*/
+}
+#ad-con .ul-ad li{
+    float: left;
+    border-left: 1px solid #3E4245;
+}
+#ad-con .ul-ad li a{
+    display: block;
+    width: 171px;
+    height: 46px;
+    padding: 42px 0 42px 68px;
+    /*background: green;*/
+    position: relative;
+}
+#ad-con .ul-ad li a img{
+    position: absolute;
+    left: 20px;
+    top: 42px;
+}
+#ad-con .ul-ad li a h2{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+#ad-con .ul-ad li a p{
+    color:#7F9E92;
+}
+/*--------轮播下面广告区样式over------*/

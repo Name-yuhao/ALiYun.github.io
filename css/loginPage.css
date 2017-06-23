@@ -1,0 +1,180 @@
+@charset "UTF-8";
+*{
+    padding:0;
+    margin:0;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/*登录界面 begin*/
+.loginArea{
+    padding:95px 234px 81px 175px;
+    background-color: #fff;
+    height: 100%;
+}
+/*登录界面左边 begin*/
+.loginArea_left{
+    width: 448px;
+    height: 392px;
+    overflow: hidden;
+
+}
+/*登录界面左边图片大盒子部分*/
+.loginArea_left_picBox{
+    height: 348px;
+    border:1px solid #F7F7F7;
+    /*background-color: pink;*/
+    position: relative;
+    overflow: hidden;
+
+
+}
+.loginArea_left_picBox ul{
+    width: 1792px;
+    position: absolute;
+    left: 0;
+}
+.loginArea_left_picBox ul li {
+    float: left;
+}
+.loginArea_left_picBox img{
+    width: 448px;
+    height: 348px;
+}
+/*广告图片展示区*/
+/*录界面左边小圆点*/
+.smallDot{
+    height: 32px;
+    margin-bottom: 10px;
+    /*background-color: green;*/
+    overflow: hidden;
+}
+.threeDots_box{
+    margin:0 192px;
+}
+.smallDot li{
+    float: left;
+}
+.smallDot ol li i{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border:1px solid #CCCCCC;
+    border-radius: 50%;
+    margin:10px 4px;
+}
+.current{
+    background-color: #00a2ca;
+}
+/*登录界面左边 end*/
+/*登录界面右边 begin*/
+.loginArea_right{
+    width: 248px;
+    height: 343px;
+    border:1px solid #D4D4D4;
+    padding:30px 24px 19px 20px;
+    /*background-color: greenyellow;*/
+    font:12px/26px "inherit";
+
+}
+.loginArea_right a{
+    color: #00a2ca;
+}
+.loginCode{
+    height: 52px;
+    position: relative;
+    /*background-color: pink;*/
+    border-bottom: 1px solid #ccc;
+}
+.login_safety{
+    margin: 0 54px 0 78px;
+    border: 1px solid #f3d995;
+    padding-left: 15px;
+    color: #df9c1f;
+    background-color: #fefcee;
+}
+.loginCode a{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 47px;
+    height: 47px;
+    background: url("../images/erweim.png")no-repeat;
+}
+/*登录名*/
+.login{
+    overflow: hidden;
+}
+.userName{
+    padding-top: 8px;
+    line-height: 36px;
+}
+.login span{
+    font-weight: 700;
+}
+.login a{
+    float: right;
+}
+.login input{
+    border: 1px solid #cccccc;
+    height: 31px;
+    width: 239px;
+    color: #b2b2cb;
+    font-size: 14px;
+    padding-left: 5px;
+    border-radius: 4px;
+}
+.login button{
+    height: 36px;
+    width: 100%;
+    margin-top: 19px;
+    background-color: #00a2ca;
+    text-align: center;
+    font-size: 14px;
+    line-height: 36px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+/*其他登录方式*/
+.otherLogin{
+    margin-top: 8px;
+    position: relative;
+}
+.otherLogin #freeCer{
+    position: absolute;
+    right: 0;
+}
+.otherLogin p{
+    line-height: 12px;
+}
+/*服务协议*/
+.agreement{
+    margin-top: 20px;
+}
+.agreement input{
+    vertical-align: text-bottom;
+}
+/*登录界面右边 end*/
+/*登录界面 end*/

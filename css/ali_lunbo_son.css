@@ -1,0 +1,136 @@
+body{
+    background-color:#373D41;
+}
+.fs_imgtop{
+    width: 100%;
+}
+.fs_imgtop img{
+    width: 100%;
+}
+.four_son_wrap {
+    width: 730px;
+    height: 454px;
+    margin: 20px auto;
+    position: relative;
+}
+.four_son_left,.four_son_right{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 160px;
+}
+.four_son_left{
+    left: 0;
+    background: url("../images/sanguo.jpg");
+}
+.four_son_right{
+    right: 0;
+    background: url("../images/huangdi.jpg");
+}
+.four_son_ads span{
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid #fff;
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+    top: 0;
+    right: 0;
+}
+.fs_kaiche{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin-top: 50px;
+}
+.four_son_one,.four_son_two{
+    width: 50px;
+    height: 50px;
+    background:url("../images/qiuqiu.png");
+    font-size: 12px;
+    line-height: 50px;
+    text-align:center;
+    position: absolute;
+    cursor: pointer;
+}
+.fs_tab{
+    width: 700px;
+    height: 400px;
+    background: #000;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.fs_tabt{
+    width: 400px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #cccccc;
+    font-size: 28px;
+    border: 1px solid #ccc;
+    margin:-1px auto 0;
+}
+.fs_tab span{
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #cccccc;
+    opacity: 0.6;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+.fs_tab1 span{
+    top: 0;
+    left: 0;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.fs_tab2 span{
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #ccc;
+}
+.fs_tab3 span{
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.fs_tab4 span{
+    bottom: 0;
+    right: 0;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.fs_tab11,.fs_tab21,.fs_tab31,.fs_tab41{
+    width: 438px;
+    height: 240px;
+    padding: 19px 30px;
+    border: 1px solid #ccc;
+    margin: 20px auto 0;
+    display: none;
+}
+.fs_tab11{
+    display: block;
+}
+.fs_tab li{
+    height: 40px;
+    line-height: 40px;
+    color: #cccccc;
+    font-size: 18px;
+}
+.fs_tab0{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:url("../images/play.png") no-repeat 20px 12px;
+}

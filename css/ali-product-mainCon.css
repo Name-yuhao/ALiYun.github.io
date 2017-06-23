@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{
+    margin:0;
+    padding:0; /*清除元素的内外边距*/
+}
+fieldset, img, input, button{
+    border:none;
+    padding:0;
+    margin:0;
+    outline-style:none; /*外面环绕线*/
+}
+ul, ol{
+    list-style:none;
+}
+/*去掉原样式中的小黑点*/
+input{
+    padding-top:0;
+    padding-bottom:0;
+    font-family:"SimSun", "宋体"; /*字体的自动识别*/
+}
+select, input{
+    vertical-align:middle;
+}
+/*输入字居中显示*/
+select, input, textarea{
+    font-size:12px;
+    margin:0;
+}
+/**/
+textarea{
+    resize:none; /*不可以随意拖动*/
+}
+/*防止拖动*/
+img{
+    border:0;
+    vertical-align:middle; /*  去掉图片底部默认的3像素空白缝隙*/
+}
+table{
+    border-collapse:collapse; /*合并外连线*/
+}
+body{
+    font:12px/150% "microsoft yahei", Arial, Verdana, "\5b8b\4f53"; /*unitedCode的写法，宋体的写法*/
+    color:#666; /*150%基于当前字体尺寸的百分比行间距*/
+    background:white;
+    height:1000px;
+}
+.clearfix:before, .clearfix:after{
+    /*清除浮动，最好最标准的写法*/
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    *zoom:1; /*IE/7/6*/ /*兼容IE6下的写法*/
+}
+a{
+    color:#666; /*a 标签是不继承颜色 的*/
+    text-decoration:none;
+}
+a:hover{
+    color:#00c1de;
+}
+h1, h2, h3, h4, h5, h6{
+    text-decoration:none;
+    font-weight:normal;
+    font-size:100%;
+}
+s, i, em{ /*一般是起装饰作用*/
+    font-style:normal; /*去掉原有的样式*/
+    text-decoration:none; /*去掉下划线或是删除线*/
+}
+.col-red{
+    color:#f10215 !important; /*京东主色调*/
+}
+/*公共类*/
+.w{
+    /*版心 提取 */
+    width:1190px;
+    margin:0 auto;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.al{
+    text-align:left;
+}
+.ac{
+    text-align:center;
+}
+.ar{
+    text-align:right;
+}
+.hide{
+    display:none;
+}
+.pr{
+    position:relative;
+}
+.po{
+    position:absolute;
+}
+.mr0{
+    margin-right:0;
+}
+/*css初始化完成*/
+
+.ali-product-logo{
+    display:block;
+    width:90px;
+    margin:32px auto 24px;
+}
+.ali-product-title{
+    text-align:center;
+    font-size:24px;
+    color:#373d41;
+    line-height:36px;
+}
+.ali-product-sub-title{
+    text-align:center;
+    margin:10px 0 42px;
+    font-size:16px;
+    color:#373d41;
+    display:block;
+    text-decoration:none;
+}
+.ali-product-layer{
+    height:131px;
+    width:100%;
+}
+.ali-product-tabs{
+    text-align:center;
+    position:relative;
+    width:1200px;
+    height:131px;
+    margin:auto;
+    overflow:hidden;
+}
+.ali-product-tab{
+    float:left;
+    width:234px;
+    height:131px;
+}
+.ali-product-tab a{
+    display:block;
+    color:#373d41;
+    width:101px;
+    height:156px;
+    margin:19px auto;
+}
+.ali-product-icon{
+    width:80px;
+    height:80px;
+}
+.ali-product-name{
+    margin-top:1px;
+    font-size:14px;
+}
+#ali-product-layer{
+    display:none;
+}
+.ali-product-show-more{
+    width:120px;
+    height:36px;
+    line-height:36px;
+    margin:35px auto 40px;
+    text-align:center;
+    font-size:14px;
+    color:#373d41;
+    border:1px solid #373d41;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
